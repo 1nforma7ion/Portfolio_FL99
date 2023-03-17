@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Portafolio</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="https://kit.fontawesome.com/2a5f21bed6.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css"
+		href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+	<link rel="stylesheet" type="text/css"
+		href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+
+
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<h1>Mi Portafolio</h1>
+			<nav>
+				<ul>
+					<li><a href="#proyectos">Proyectos</a></li>
+					<li><a href="#redes-sociales">Redes Sociales</a></li>
+					<li><a href="#contacto">Contacto</a></li>
+					<li><a href="#skills">Habilidades</a></li>
+					<li><a href="#experience">Experiencia</a></li>
+					<li><button id="dark-mode-toggle" onclick="toggleDarkMode()"><i class="fa-solid fa-circle-half-stroke"></i></button></li>
+
+				</ul>
+			</nav>
+		</div>
+
+	</header>
+	<main>
+
+		<section id="proyectos">
+
+			<div id="proyectos-container">
+				<div>
+					<a href="link_proyecto_1" target="_blank">
+						<img src="/Src/1.jpg" alt="Proyecto 1">
+						<h3>Título del proyecto 1</h3>
+						<p>Descripción del proyecto 1</p>
+					</a>
+				</div>
+				<div>
+					<a href="link_proyecto_2" target="_blank">
+						<img src="/Src/2.jpg" alt="Proyecto 2">
+						<h3>Título del proyecto 2</h3>
+						<p>Descripción del proyecto 2</p>
+					</a>
+				</div>
+				<!-- agregar más elementos según sea necesario -->
+			</div>
+
+		</section>
+
+
+		<section id="habilidades">
+			<h2>Habilidades y herramientas</h2>
+			<ul>
+				<li>
+					<i class="fab fa-html"></i> HTML
+					<progress value="90" max="100"></progress>
+				</li>
+				<li>
+					<i class="fab fa-css3-alt"></i> CSS
+					<progress value="80" max="100"></progress>
+				</li>
+				<li>
+					<i class="fab fa-js"></i> JavaScript
+					<progress value="70" max="100"></progress>
+				</li>
+				<li>
+					<i class="fab fa-react"></i> React
+					<progress value="60" max="100"></progress>
+				</li>
+			</ul>
+		</section>
+
+		<section class="experience">
+			<h2>Experiencia Laboral</h2>
+			<div class="experience-grid">
+				<div class="experience-item">
+					<h3>Desarrollador web</h3>
+					<p>Empresa A</p>
+					<p class="experience-date">Enero 2020 - Presente</p>
+					<ul>
+						<li>Desarrollo de sitios web con HTML, CSS y JavaScript</li>
+						<li>Trabajo en equipo con diseñadores y otros desarrolladores</li>
+						<li>Optimización de sitios web para mejorar su rendimiento</li>
+					</ul>
+				</div>
+				<div class="experience-item">
+					<h3>Desarrollador móvil</h3>
+					<p>Empresa B</p>
+					<p class="experience-date">Febrero 2018 - Diciembre 2019</p>
+					<ul>
+						<li>Desarrollo de aplicaciones móviles nativas para iOS y Android</li>
+						<li>Colaboración con otros desarrolladores y diseñadores</li>
+						<li>Optimización de aplicaciones para mejorar su rendimiento</li>
+					</ul>
+				</div>
+				<div class="experience-item">
+					<h3>Desarrollador web</h3>
+					<p>Empresa A</p>
+					<p class="experience-date">Enero 2020 - Presente</p>
+					<ul>
+						<li>Desarrollo de sitios web con HTML, CSS y JavaScript</li>
+						<li>Trabajo en equipo con diseñadores y otros desarrolladores</li>
+						<li>Optimización de sitios web para mejorar su rendimiento</li>
+					</ul>
+				</div>
+				<!-- Agregar más elementos de experiencia aquí -->
+			</div>
+		</section>
+
+		<section class="certifications">
+			<h2>Certificaciones y Cursos</h2>
+			<div class="certifications-grid">
+				<div class="certifications-item">
+					<h3>Desarrollo web completo con HTML, CSS y JavaScript</h3>
+					<p>Udemy</p>
+					<p class="certifications-date">Enero 2021 - Febrero 2021</p>
+					<p>Este curso completo de desarrollo web cubre desde los fundamentos hasta temas avanzados, como la
+						creación de sitios web responsive y la integración de APIs.</p>
+				</div>
+				<div class="certifications-item">
+					<h3>Diseño de interfaces de usuario</h3>
+					<p>Platzi</p>
+					<p class="certifications-date">Marzo 2022</p>
+					<p>En este curso aprendí los fundamentos del diseño de interfaces de usuario, incluyendo la creación
+						de wireframes, prototipos y la implementación de patrones de diseño comunes.</p>
+				</div>
+				<!-- Agregar más elementos de certificaciones y cursos aquí -->
+			</div>
+		</section>
+
+		<section class="windows-animation">
+			<img src="https://cdn-icons-png.flaticon.com/512/52/52422.png" alt="Windows 98 icon" class="windows-icon">
+			<div class="windows-message">
+				<p>Cargando...</p>
+				<div class="windows-dots">
+					<span class="windows-dot"></span>
+					<span class="windows-dot"></span>
+					<span class="windows-dot"></span>
+				</div>
+			</div>
+		</section>
+
+
+
+		<section id="redes-sociales">
+			<div class="container">
+				<h2>Redes Sociales</h2>
+				<div class="social-icons">
+					<a href="https://www.facebook.com/mi-usuario" target="_blank"><i class="fa fa-facebook"></i></a>
+					<a href="https://www.twitter.com/mi-usuario" target="_blank"><i class="fa fa-twitter"></i></a>
+					<a href="https://www.linkedin.com/in/mi-usuario" target="_blank"><i class="fa fa-linkedin"></i></a>
+					<a href="https://www.instagram.com/mi-usuario" target="_blank"><i class="fa fa-instagram"></i></a>
+					<a href="https://www.instagram.com/mi-usuario" target="_blank"><i class="fa fa-github"></i></a>
+				</div>
+			</div>
+		</section>
+		<section id="contacto">
+			<div class="container">
+				<h2>Contacto</h2>
+				<form action="#" method="POST">
+					<label for="nombre">Nombre:</label>
+					<input type="text" id="nombre" name="nombre" required>
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email" required>
+					<label for="mensaje">Mensaje:</label>
+					<textarea id="mensaje" name="mensaje" required></textarea>
+					<input type="submit" value="Enviar">
+				</form>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div class="container">
+			<p>© 2023 - Mi Portafolio</p>
+		</div>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+	<script src="app.js"></script>
+</body>
+
+</html>
